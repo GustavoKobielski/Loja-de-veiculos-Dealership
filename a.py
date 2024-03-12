@@ -21,7 +21,6 @@ connection = create_db_connection(db_config)
 cursor = connection.cursor()
 
 
-
 # PASSO A PASSO
 # conscessionaria (vendedor, comprador, estoque)
 
@@ -59,13 +58,6 @@ class cliente(Concessionaria):
     def __init__(self, nome, idade, cpf,dinheiro):
         super().__init__(nome,idade,cpf)
         self.dinheiro = dinheiro
-
-    #def comprar_veiculo(self):
-
-
-    #def listar_veiculo(self):
-
-    #def listar_veiculo_cliente(self):
 
 class Veiculo:
     def __init__(self, marca, modelo, ano, cor):
@@ -125,8 +117,7 @@ def check_credentials(cpf, senha):
         cnx.close()
         return None
 
-######################################################################
-######################################################################
+
 ######################################################################
 ######################################################################
 ######################################################################
@@ -323,7 +314,3 @@ while True:
                     print("Cliente não encontrado!")
             else:
                 print("Veículo não encontrado!")
-
-
-# FALTA TD DO CLIENTE
-# TER CM REMOVER O FUNCIONARIO
