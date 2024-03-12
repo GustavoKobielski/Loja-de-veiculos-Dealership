@@ -10,7 +10,7 @@ Projeto de loja de veiculos usando python com db (MySql Workbench)
 
 Quando inicia-se o código, ele irá pedir se você quer entrar como cliente ou funcionário, caso escolha como funcionário ele irá pedir seu cpf, senha, caso esteja correto, ele irá retornar Bem vindo nome (nome cadastrado com esse cpf), e irá aparecer as opções para escolha de adicionar veiculo, remover veiculo, listar veiculo, retornar ao inicio.
 
-### Uso:
+### Usos:
 
 Python : mysql-connector
 Sql : MySql Workbench
